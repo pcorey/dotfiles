@@ -1,0 +1,56 @@
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt.fading:               0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            50
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+
+URxvt.allow_bold:           true
+/* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
+URxvt*font:                 xft:UbuntuMono-R:pixelsize=16
+URxvt*boldFont:             xft:UbuntuMono-B:pixelsize=16
+URxvt*letterSpace:          -1
+
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+URxvt.pointerBlank:         true
+
+*background:                #222222
+*foreground:                #e8e9ca
+
+*color0:                    #222222
+*color1:                    #8b3e2f
+*color2:                    #526f33
+*color3:                    #665847
+*color4:                    #4a708b
+*color5:                    #7a378b
+*color6:                    #528b8b
+*color7:                    #999999
+
+*color8:                    #4c4c4c
+*color9:                    #d75f00
+*color10:                   #cee318
+*color11:                   #eee685
+*color12:                   #9ac0cd
+*color13:                   #9f79ee
+*color14:                   #79cdcd
+*color15:                   #e8e9ca
