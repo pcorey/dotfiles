@@ -1,0 +1,17 @@
+*
+!.config/
+!.config/bspwm/
+!.config/sxhkd/
+!.config/sublime-text-3
+!.config/sublime-text-3/Packages
+!.config/sublime-text-3/Packages/User
+
+!.gitignore
+!.Xdefaults
+!.xinitrc
+!.zshrc
+!.vimrc
+!.tmux.conf
+!.config/bspwm/bspwmrc
+!.config/sxhkd/sxhkdrc
+!.config/sublime-text-3/Packages/User/Preferences.sublime-settings
