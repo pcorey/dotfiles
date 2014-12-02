@@ -1,0 +1,7 @@
+[user]
+	email = petecorey@gmail.com
+	name = Pete Corey
+[core]
+	editor = vim
+[push]
+	default = simple
