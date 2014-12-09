@@ -4,6 +4,7 @@
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_family": "Ubuntu Mono",
+    "tab_size": 4,
 	"font_options":
 	[
 		"subpixel_antialias"
