@@ -2,7 +2,7 @@
 # bspwm hotkeys
 #
 
-alt + alt + Escape
+alt + ctrl + Escape
 	bspc quit
 
 alt + w
@@ -52,10 +52,10 @@ alt + ctrl + {h,j,k,l}
 alt + ctrl + {_,shift + }space
 	bspc {window -p cancel,desktop -c}
 
-alt + alt + {h,j,k,l}
+alt + shift + {h,j,k,l}
 	bspc window -e {left -10,down +10,up -10,right +10}
 
-alt + alt + shift + {h,j,k,l}
+alt + ctrl + shift + {h,j,k,l}
 	bspc window -e {right -10,up +10,down -10,left +10}
 
 alt + ctrl + {1-9}
