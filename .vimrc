@@ -15,6 +15,8 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'https://github.com/Raimondi/delimitMate'
 Plugin 'https://github.com/Shougo/unite.vim'
 Plugin 'https://github.com/Shougo/vimproc.vim'
+Plugin 'https://github.com/tpope/vim-fugitive'
+Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -26,6 +28,7 @@ set expandtab tabstop=2 shiftwidth=2 softtabstop=2
 set background=dark
 set textwidth=0 
 set wrapmargin=0
+set autoread
 syntax enable
 
 nnoremap <leader>n :NERDTreeToggle<CR>
@@ -81,7 +84,7 @@ let g:unite_source_grep_command = 'ag'
 let g:unite_source_grep_default_opts = '--line-numbers --nocolor --nogroup --smart-case'
 let g:unite_source_grep_recursive_opt = ''
 call unite#custom#source('file_rec/async', 'ignore_globs', ['.*', 'node_modules/**/*'])
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
+"call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
 call unite#custom#source('buffer,file,file_rec,file_rec/async', 'sorters', 'sorter_selecta')
 
